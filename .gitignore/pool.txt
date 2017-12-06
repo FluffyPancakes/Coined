@@ -1,0 +1,64 @@
+custompanel prvokdprvokd
+maxgputemp 800
+stratumproxy enabled
+
+#ZCASH
+#proxywallet t1auoVtxpHtQpCYh8nkfWRnD3d7gSwuZssJ
+#proxywallet t1UH9KhoaL3pgk4vgvXxMNAdVz2TX7xwJiV
+#proxypool1  us1-zcash.flypool.org:13333
+#proxypool1 ssl://us1-zcash.flypool.org:3443 
+
+#HUSH
+#proxywallet t1R6u6y32hs4RjMgsat1e6guLRnBBEALcD1
+#proxypool1 mining.miningspeed.com:3092
+#proxypool1 us.hushpool.cloud:5551
+#proxypool1 us.hushmine.pro:9009
+#proxypool1 us.madmining.club:3343
+
+#ETH
+proxywallet 0xc63ebdd36dea033a1ef3f05cfc86f650864e20b7
+proxypool1 etc-us-east1.nanopool.org:19999
+
+#ZEN
+#proxywallet znoDS5eEq6joenfYHg7LZdoYT3LzL9DHAfB
+#proxypool1 ssl://us.zenmine.pro:9999
+
+
+#proxypool1 us1-etc.ethermine.org:4444
+stratumproxy enabled
+flags --cl-local-work 128 --cl-global-work 8192 --farm-recheck 200
+#globalcore 1100
+#globalmem 1250
+globalfan 85
+globalminer claymore
+autoreboot 3
+driver 9d34d6 fglrx
+driver 9d3525 fglrx
+driver 433262 amdgpu
+#driver 9d3525 amdgpu
+miner 9d3525 claymore
+#mem 9d3525 4708
+#cor 9d3525 1911
+driver 2e2075 fglrx
+driver 8a65bf fglrx
+driver 30c9f7 fglrx
+globaldesktop disabled
+#cor 433262 1270 1270 1270 1270 1340
+#mem 9d34d6 1250 1250 1250 1250
+#mem 2e2075 1500 1500 1500 1500
+#cor 433262 1300 1300 1300 1300 1300
+#mem 433262 1750 2050 1750 2050 2250
+#cor 8a65bf 1100 1100
+#fan 8a65bf 95 95 95 95
+#cor 9d34d6 1100 1100 1100 1100 1100
+#cor 90bd0c 1015 1015 1025 1015 1015
+#fan 90bd0c 80 81 85 90 84
+#cor 4b9571 1100 1100 1100
+#fan 4b9571 95 95 95 95
+lockscreen
+loc 9d34d6 miner02
+loc 4b9571 miner01
+loc 90bd0c miner03
+loc 8a65bf miner04
+loc 433262 miner05
+loc 9d3525 miner00
